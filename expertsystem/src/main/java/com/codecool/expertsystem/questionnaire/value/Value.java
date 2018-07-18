@@ -1,4 +1,10 @@
 package com.codecool.expertsystem.questionnaire.value;
 
-public class Value {
+import java.util.List;
+
+public abstract class Value {
+
+    public abstract List<String> getInputPattern();
+
+    public abstract boolean getSelectionType();
 }
