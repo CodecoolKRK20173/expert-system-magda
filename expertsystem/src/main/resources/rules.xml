@@ -34,16 +34,17 @@
                 <MultipleValue value="nothing,abs,fog lights,central lock"/>
             </Selection>
         </Answer>
-    </Rule>
+    </Rule>h
+
 
     <Rule id="family">
         <Question>Is the car supposed to be family-friendly? (yes or no)</Question>
         <Answer>
             <Selection value="true">
-                <MultipleValue value="yes"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <MultipleValue value="no"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>

@@ -106,7 +106,7 @@
             <Eval id="family">false</Eval>
             <Eval id="money">false</Eval>
             <Eval id="comfort">false</Eval>
-            <Eval id="luxury">false</Eval>
+            <Eval id="luxury">true</Eval>
         </Evals>
     </Fact>
 </Facts>
